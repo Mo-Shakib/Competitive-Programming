@@ -1,17 +1,11 @@
 t = int(input())
-stons = input()
-r = 0
-g = 0
-b = 0
-temp = stons[0]
+stones = input()
 count = 0
 for i in range(t):
-    if stons[count] == stons[count+1]:
-        if stons[i] == 'R':
-            r += 1
-        elif stons[i] == 'B':
-            b += 1
-        elif stons[i] == 'G':
-            g += 1
-    count += 1
-print(r+g+b)
+    if stones[i] == stones[i-1]:
+        count += 1
+if count == t:
+    print(count - 1)
+else:
+    print(count)
+    
