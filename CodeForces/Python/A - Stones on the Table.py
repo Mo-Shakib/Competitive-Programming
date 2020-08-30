@@ -1,11 +1,16 @@
 t = int(input())
 stones = input()
 count = 0
+a = 0
+b = 1
+first_chr = stones[a]
+second_chr = stones[b]
 for i in range(t):
-    if stones[i] == stones[i-1]:
+    if first_chr == second_chr:
         count += 1
-if count == t:
-    print(count - 1)
-else:
-    print(count)
+        a += 1
+        b += 1
+    if b >= t:
+        break
+print(count)
     
