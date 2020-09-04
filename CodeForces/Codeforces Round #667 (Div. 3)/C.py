@@ -1,4 +1,5 @@
 t = int(input())
 for i in range(input()):
-    n, s = map(int, input().split())
+    n, x, y = map(int, input().split())
+    
     
