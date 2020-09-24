@@ -1,3 +1,4 @@
+# https://codeforces.com/contest/1420/problem/A
 t = int(input())
 for i in range(t):
     count = 0
