@@ -6,9 +6,9 @@ for i in range(t):
     x = len(cubes)
     sortedArray = sorted(cubes)
     for k, l in zip(cubes, sortedArray):
-        count += 1
-    # print('Change need:', count)
-    y = (n * (n - 1)) - 1
+        count += 1 # total changes we need
+    
+    y = (n * (n - 1)) - 1 # exchanges we can make
     if y >= count:
         print('YES')
     else:
