@@ -23,3 +23,6 @@ elif int(s2) < int(s1):
     print(1)
 else:
     print(0)
+
+
+z = input()
