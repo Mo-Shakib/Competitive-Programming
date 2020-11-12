@@ -1,6 +1,6 @@
 # https://www.hackerrank.com/challenges/python-lists/problem
 main = []
-t = int(input())
+t = int(input()) # taking user input
 
 for i in range(t):
     tokens = input().split()
