@@ -1,4 +1,4 @@
-a = [x for x in range(201) if x%2 == 1]
+a = [x//x for x in range(201) if x%2 == 1]
 
 t = int(input())
 for i in range(t):
