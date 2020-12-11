@@ -5,3 +5,5 @@ change = sentence[0]
 unchange = sentence[1:]
 change = change.upper()
 print(change+unchange)
+
+# Accepted
