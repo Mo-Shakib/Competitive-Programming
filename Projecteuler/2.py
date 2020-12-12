@@ -4,3 +4,22 @@
 
 By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms. """
 
+def fibonacci(lenth):
+    z = 0   
+    x = 0
+    y = 1
+    arr = []
+    total = 0
+    while z < lenth:
+        z = x + y
+        x = y
+        y = z
+        arr.append(z) 
+    
+    for i in arr:
+        if i % 2 == 0:
+            total += i
+
+    return total
+
+print(fibonacci(4000000))
