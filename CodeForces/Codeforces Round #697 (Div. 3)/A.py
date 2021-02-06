@@ -22,3 +22,5 @@ for a in range(t):
     num = int(input())
     x = list(divisorGenerator(num))
     print(check_odd(x))
+
+    
