@@ -3,7 +3,7 @@
 
 📌 [What is competitive programming? - Quora](https://www.quora.com/What-is-competitive-programming-2)
 
-##### 📌 Folders in this repository
+#### 📂 Folders in this repository:
 
 | Folder           | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
@@ -19,7 +19,7 @@
 | uVA              | Solutions of [uVA]([https://onlinejudge.org](https://onlinejudge.org/)) problems |
 
 
-# Competitive Programming Sites
+### 📌 Competitive Programming Sites:
 - https://www.hackerrank.com/
 - https://www.hackerearth.com
 - https://codesignal.com/
