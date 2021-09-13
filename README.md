@@ -1,4 +1,4 @@
-# Competitive Programming Solutions
+# Competitive Programming
 ### Archive of my programming problem solutions
 
 📌 [What is competitive programming? - Quora](https://www.quora.com/What-is-competitive-programming-2)
@@ -18,3 +18,13 @@
 | URI Online Judge | Solutions of [URI Online Judge](https://www.urionlinejudge.com.br) problems |
 | uVA              | Solutions of [uVA]([https://onlinejudge.org](https://onlinejudge.org/)) problems |
 
+
+# Competitive Programming Sites
+- https://www.hackerrank.com/
+- https://www.hackerearth.com
+- https://codesignal.com/
+- https://coderbyte.com/
+- https://www.codechef.com/
+- https://www.spoj.com/
+- https://www.urionlinejudge.com.br/
+- https://codeforces.com/
