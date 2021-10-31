@@ -1,8 +1,7 @@
-# https://codeforces.com/contest/1593/problem/B
-
 def solution(n):
     n = n[::-1]
     removed = []
+    print(n)
     found = []
     for i in range(len(n)):
         if int(n[i]) in [0, 5]:
@@ -24,9 +23,7 @@ def solution(n):
             removed.append(int(n[i]))
     return len(removed)
 
-for i in range(int(input())):
-    print(solution(input()))
-    
-    
-    
+
+
+print(solution('50555'))
     
